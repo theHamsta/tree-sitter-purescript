@@ -3,7 +3,9 @@ name: Fuzz parser
 # Run this workflow on changes to the external scanner
 on:
   push:
+    branches: ['*']
   pull_request:
+    branches: ['*']
 
 jobs:
   test:
